@@ -1,0 +1,35 @@
+header{
+    background-image: url('../images/banner/banner2.png');
+    
+}
+.banner-container{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 500px;
+    margin-left: 500px;
+    
+}
+.banner-title{
+    color: rgb(21, 20, 20);
+font-family: Work Sans;
+font-size: 65px;
+font-weight: 700;
+text-align: right;
+}
+.banner-description{
+    color: rgb(68, 67, 67);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: right;
+}
+.div{
+    text-align: right;
+}
+.btn-primary{
+    border-radius: 5px;
+background: rgb(241, 91, 34);
+color: white;
+border: none;
+padding: 10px 20px;
+}
