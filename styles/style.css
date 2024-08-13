@@ -1,5 +1,6 @@
 header{
     background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
     
 }
 .banner-container{
@@ -63,4 +64,96 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+}
+/* fgdjgrjprfojk */
+
+.heading{
+    color: rgb(21, 20, 20);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-top: 50px;
+
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+/* joefijhifjkldjfdjfjuf */
+
+.section{
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  max-width: 1110px;
+  margin-left: 80px;
+  padding: 80px;
+}
+.background-title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+text-align: left;
+width: 450px;
+}
+
+
+.btn-bg{
+    color: rgb(241, 91, 34);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+border-radius: 5px;
+border: none;
+background: rgb(255, 255, 255);
+padding: 10px 20px;
+}
+/* footer section */
+
+footer{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 230px;
+    /* width: 470px; */
+background: rgb(21, 20, 20);
+}
+.foter-title{
+    color: rgb(248, 248, 248);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+text-align: left;
+}
+
+.footer-description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+.footer-title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 29px;
+text-align: left;
+}
+
+form input[type="email"]{
+    padding: 15px 35px;
+    margin-bottom: 15px;
+    color: white;
+    background-color:  rgb(21, 20, 20);
+    border: 1px solid white;
+    border-radius: 10px;
 }
