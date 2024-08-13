@@ -3,6 +3,33 @@ header{
     background-repeat: no-repeat;
     
 }
+/* mmmmmmmmmmmmmm */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.nav-title{
+Font-weight: 800;
+Font-size: 45px;
+color:rgb(24, 24, 24);
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li >a{
+    text-decoration: none;
+}
+/* mmmmmmmmmmmmmk */
 .banner-container{
     padding-top: 170px;
     padding-bottom: 200px;
