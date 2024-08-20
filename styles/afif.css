@@ -170,3 +170,68 @@ form input[type="text"], input[type="email"],textarea{
     border: none;
     padding: 20px 200px 20px 10px;
 }
+.hide{
+    display: none;
+}
+
+/* media query */
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    nav >ul{
+        flex-direction: column;
+        align-items: left;
+    }
+    nav > li{
+        margin-right: 0;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 20px 20px 0 20px;
+    }
+    .banner .profile-pic{
+        width: 400px;
+    }
+    .banner-description{
+        width: 400px;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+    /* abnout section */
+
+   
+
+    .about-container{
+        flex-direction: column;
+       
+    }
+    .about{
+        padding: 10px;
+    }
+    /*  */
+    .what-descriptione{
+        padding: 5px 0;
+    }
+    .what-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .what-div{
+        padding: 50px;
+    }
+    /*  */
+    .resume-container{
+        flex-direction: column;
+    }
+    .resume{
+        padding: 10px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+}
