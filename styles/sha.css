@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    padding:10px 100px;
+    background: rgba(255, 144, 14, 0.1);
+}
+img{
+    width: 100%;
+}
+.lady-photo img{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+/* nav related styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 17px;
+    color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+}
+.nav-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
+.banner-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+}
+.banner-descrip{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+text-align: center;
+}
+.banner-title, .banner-descrip{
+    max-width: 650px;
+    margin: 0 auto;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+border-radius: 8px;
+padding: 8px 14px;
+background: rgb(255, 144, 14);
+border: none;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+/* photo section */
+
+.photo-container{
+    display: flex;
+    gap: 40px;
+    padding: 10px 70px;
+    align-items: center;
+}
+
+.photo-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.des-div{
+    max-width: 520px;
+}
+.des-title{
+    font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+text-align: left;
+}
+.des-des{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-weight: 400;
+text-align: left;
+}
+.span{
+color: rgb(255, 144, 14);
+}
+/* lady section */
+.lady-section{
+    margin-bottom: 50px;
+}
+.lady-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+text-align: left;
+}
+.lady-des{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+.lady-container{
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.div{
+    max-width: 550px;
+}
+
+.icon-containerr{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 150px;
+}
+.icon-container{
+    border: 1px solid rosybrown;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.icon-container img{
+    
+    width: 50%;
+}
+.facts-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+text-align: left;
+}
+.facts-des{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+width: 500px;
+}
+.class{
+    padding: 30px 140px;
+}
+
+/* last part */
+
+.last-title{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+text-align: center;
+}
+
+.last-des{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-weight: 400;
+text-align: center;
+width: 500px;
+margin: 0 auto;
+}
+.last-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* footer part */
+
+
+footer{
+    margin: 150px;
+background: rgb(255, 244, 231);
+text-align: center;
+padding: 40px 100px;
+}
+
+@media screen and (max-width:576px){
+    .header{
+        padding: 1px 1px;
+    }
+    
+    nav{
+        flex-direction: column;
+        padding: 3px 10px;
+    }
+    nav >ul{
+        flex-direction: column;
+        padding: 2px 3px;
+    }
+    nav >ul {
+        padding: 1px;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+    .banner-title{
+        width: 50%;
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding: 2px 3px;
+    }
+    .banner-descrip{
+        max-width: 200px;
+        text-align: left;
+        padding: 1px 1px 2px 1px;
+        margin: 1px 1px 2px 1px;
+    }
+    .center{
+        text-align: left;
+        padding: 2px 3px;
+    }
+    
+
+    /* photo secton */
+    .photo-container{
+        flex-direction: column;
+        padding: 3px 10px;
+    }
+    .photo-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .des-title{
+        font-size: 20px;
+    }
+    /* lady section */
+
+    .lady-container{
+        flex-direction: column;
+        padding: 3px 10px;
+    }
+    .lady-title{
+        font-size: 20px;
+    }
+    /* dggg facts */
+    .icon-containerr{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        padding: 3px 10px;
+    }
+    .icon-containerr{
+        padding: 3px 10px;
+    }
+    .facts-des{
+        width: 70%;
+    }
+       .class{
+        padding: 3px 10px;
+       }
+       .facts-title{
+           font-size: 20px;
+           padding: 3px 10px;
+       }
+
+       .last-pic{
+         flex-direction: column;
+         padding: 3px 10px;
+       }
+       .last-pic img{
+        margin-bottom: 70px;
+        padding: 3px 10px;
+       }
+       .last-title{
+        font-size: 20px;
+        padding: 3px 10px;
+       }
+       .last-des{
+        width: 70%;
+        padding: 3px 10px;
+       }
+       .last-pic .div img{
+        width: 100%;
+       }
+       footer{
+        padding: 3px;
+        margin: 2px;
+       }
+}
