@@ -224,7 +224,7 @@ padding: 40px 100px;
         padding: 1px;
     }
     .nav-title{
-        font-size: 20px;
+        font-size: 30px;
     }
     .banner-title{
         width: 50%;
@@ -233,7 +233,7 @@ padding: 40px 100px;
         padding: 2px 3px;
     }
     .banner-descrip{
-        max-width: 200px;
+        max-width: 300px;
         text-align: left;
         padding: 1px 1px 2px 1px;
         margin: 1px 1px 2px 1px;
